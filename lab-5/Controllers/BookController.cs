@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using wsei_asp_net_lab.Models;
+
 
 namespace lab_5.Controllers;
 
