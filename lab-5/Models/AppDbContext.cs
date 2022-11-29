@@ -12,7 +12,7 @@ public class AppDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("Data source = C:\\Users\\Sebastian\\Desktop\\Data\\books.db");
+        optionsBuilder.UseSqlite("Data source = C:\\Users\\Sebastian\\Desktop\\Data\\books3.db");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

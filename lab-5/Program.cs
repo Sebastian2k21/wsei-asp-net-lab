@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace lab_5.Program
 {
     public class Program
@@ -10,7 +12,8 @@ namespace lab_5.Program
             builder.Services.AddControllersWithViews();         
 
             var app = builder.Build();
-
+            
+            
             // Konfiguracja warstw pośrednich.
             if (!app.Environment.IsDevelopment())
             {
